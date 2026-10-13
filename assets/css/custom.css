@@ -442,14 +442,19 @@ picture.author-profile-illustration > img {
 }
 
 .updates-feed__item h2 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 700;
   margin: 0.25rem 0 0.5rem;
 }
 
 .updates-feed__image {
   margin: 0.75rem 0;
-  max-width: 320px;
+  max-width: min(280px, 100%);
+}
+
+.updates-feed__item:not(.updates-feed__item--compact-note) .e-content.prose {
+  font-size: 0.975rem;
+  line-height: 1.6;
 }
 
 .updates-feed__caption {
