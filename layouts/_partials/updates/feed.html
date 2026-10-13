@@ -25,7 +25,7 @@
           {{ $displayTitle = printf "%s: %s" . $title }}
         {{ end }}
       {{ end }}
-      <article class="h-entry updates-feed__item updates-feed__item--{{ .Section }}">
+      <article class="h-entry updates-feed__item updates-feed__item--{{ .Section }}{{ if $isMicro }} updates-feed__item--compact-note{{ end }}">
         {{ if $hasRealDate }}
           <a class="u-url updates-feed__date" href="{{ .Permalink }}">
             <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format ":date_medium" }}</time>

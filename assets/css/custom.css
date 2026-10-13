@@ -479,6 +479,25 @@ picture.author-profile-illustration > img {
   margin-top: 2.875rem;
 }
 
+.updates-feed__item--compact-note {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.updates-feed__item--compact-note .e-content.prose {
+  font-size: calc(1rem - 1pt);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.updates-feed__item--compact-note .e-content.prose > :first-child {
+  margin-top: 0.25rem;
+}
+
+.updates-feed__item--compact-note .e-content.prose > :last-child {
+  margin-bottom: 0.25rem;
+}
+
 @media (max-width: 767px) {
   body > header nav {
     gap: 1rem;
