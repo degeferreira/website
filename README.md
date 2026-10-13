@@ -154,6 +154,10 @@ python3 scripts/social_collect_comments.py --dry-run
 
 ## Tradução automática
 
+As conversas incluem um link para responder no Threads. A coleta de respostas públicas usa a permissão `threads_read_replies`; ela precisa estar concedida no token, além de habilitada no app. Falhas da API preservam as respostas do Threads já coletadas. As respostas são atualizadas pelo workflow social e aparecem no próximo build do site.
+
+Imagens no feed têm limites de 240px de largura e 200px de altura, preservando a proporção. Arquivos locais JPEG/PNG/WebP são convertidos em miniaturas WebP de até 480x400 para telas de alta densidade. Imagens externas continuam com carregamento sob demanda, sem download externo durante o build.
+
 ### Configurar publicação no Threads
 
 O CMS oferece o switch `syndicate_threads` em escritos e notas EN/PT, ativado por padrão. Desativar o switch impede o envio ao Threads. Traduções herdam essa escolha. Nos itens antigos sem esse campo, o Threads segue a seleção de Bluesky ou Mastodon. O Mastodon continua ativo mesmo sem o ícone no perfil.

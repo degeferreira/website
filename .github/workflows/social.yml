@@ -51,6 +51,7 @@ jobs:
       - name: Collect public replies
         if: always()
         env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         run: python3 scripts/social_collect_comments.py

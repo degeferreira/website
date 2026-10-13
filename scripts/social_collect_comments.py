@@ -98,6 +98,16 @@ def dedupe(items: list[dict[str, str]]) -> list[dict[str, str]]:
     return result
 
 
+def threads_replies(target: dict[str, str]) -> list[dict[str, str]]:
+    token = os.environ.get("THREADS_ACCESS_TOKEN", "").strip()
+    post_id = target.get("id")
+    if not token or not post_id:
+        raise urllib.error.URLError("Threads token or post ID missing")
+    query = urllib.parse.urlencode({"fields": "id,text,username,permalink,timestamp", "limit": "100"})
+    data = get_json(f"https://graph.threads.net/v1.0/{post_id}/conversation?{query}", {"Authorization": f"Bearer {token}"})
+    return [{"source": "threads", "author": item.get("username") or "Threads user", "url": item.get("permalink") or "", "published": item.get("timestamp") or "", "text": item.get("text") or ""} for item in data.get("data", [])]
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
@@ -116,6 +126,12 @@ def main() -> None:
             comments.extend(safe_collect(f"{key} mastodon", lambda: mastodon_replies(targets["mastodon"])))
         if targets.get("bluesky"):
             comments.extend(safe_collect(f"{key} bluesky", lambda: bluesky_replies(targets["bluesky"])))
+        if targets.get("threads"):
+            try:
+                comments.extend(threads_replies(targets["threads"]))
+            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+                print(f"Skipping {key} Threads replies: check threads_read_replies permission or API availability")
+                comments.extend(item for item in record.get("comments", []) if item.get("source") == "threads")
         comments = dedupe([item for item in comments if item.get("text") or item.get("url")])
         if comments != record.get("comments", []):
             print(f"Collected {len(comments)} replies for {key}")

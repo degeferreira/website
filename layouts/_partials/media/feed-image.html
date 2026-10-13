@@ -1,0 +1,19 @@
+{{- $page := .page -}}
+{{- $image := .image -}}
+{{- $src := partial "media/image-url.html" . -}}
+{{- $resource := $page.Resources.GetMatch $image -}}
+{{- if not $resource -}}{{- $resource = resources.Get (strings.TrimPrefix "/" $image) -}}{{- end -}}
+{{- if and (not $resource) (not (hasPrefix $src "http")) -}}
+  {{- $path := printf "static/%s" (strings.TrimPrefix "/" $src) -}}
+  {{- if and $page.File (not (fileExists $path)) -}}
+    {{- $path = strings.TrimPrefix (printf "%s/" hugo.WorkingDir) (path.Join (path.Dir $page.File.Filename) $image) -}}
+  {{- end -}}
+  {{- if fileExists $path -}}
+    {{- $resource = resources.FromString (printf "feed-images/%s/%s" (md5 $path) (path.Base $path)) (readFile $path) -}}
+  {{- end -}}
+{{- end -}}
+{{- if and $resource (in (slice "image/jpeg" "image/png" "image/webp") $resource.MediaType.Type) -}}
+  {{- $thumbnail := $resource.Fit "480x400 webp q75" -}}
+  {{- $src = $thumbnail.RelPermalink -}}
+{{- end -}}
+{{- return $src -}}

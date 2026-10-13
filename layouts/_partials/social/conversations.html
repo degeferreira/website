@@ -10,13 +10,16 @@
 <section class="social-conversations max-w-prose pt-8 print:hidden">
   <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
   <h2 class="mt-6 text-2xl font-bold text-neutral-800 dark:text-neutral-200">Conversas</h2>
-  {{ if or $targets.bluesky.url $targets.mastodon.url }}
+  {{ if or $targets.bluesky.url $targets.mastodon.url $targets.threads.url }}
     <div class="social-conversations__actions">
       {{ with $targets.mastodon.url }}
         <a href="{{ . }}" rel="nofollow noopener noreferrer" target="_blank">Responder no Mastodon</a>
       {{ end }}
       {{ with $targets.bluesky.url }}
         <a href="{{ . }}" rel="nofollow noopener noreferrer" target="_blank">Responder no Bluesky</a>
+      {{ end }}
+      {{ with $targets.threads.url }}
+        <a href="{{ . }}" rel="nofollow noopener noreferrer" target="_blank">{{ if eq $page.Language.Lang "pt-br" }}Responder no Threads{{ else }}Reply on Threads{{ end }}</a>
       {{ end }}
     </div>
   {{ end }}
@@ -36,7 +39,7 @@
     </div>
   {{ else }}
     <p class="social-conversations__status text-sm text-neutral-500 dark:text-neutral-400">
-      Respostas públicas do Mastodon e Bluesky aparecerão aqui depois da próxima coleta automática.
+      {{ if eq $page.Language.Lang "pt-br" }}Respostas públicas do Mastodon, Bluesky e Threads aparecerão aqui depois da próxima coleta automática.{{ else }}Public replies from Mastodon, Bluesky and Threads will appear here after the next collection.{{ end }}
     </p>
   {{ end }}
 </section>

@@ -49,11 +49,11 @@
           <span class="p-name" hidden>{{ .Plain | truncate 120 }}</span>
         {{ end }}
         {{ with (.Params.image | default .Params.external_image) }}
-          {{ $src := partial "media/image-url.html" (dict "page" $page "image" .) }}
+          {{ $src := partial "media/feed-image.html" (dict "page" $page "image" .) }}
           <a href="{{ $link }}"><img class="u-photo updates-feed__image" src="{{ $src }}" alt="{{ $page.Params.caption | default $page.Params.photo_caption | default $title }}" loading="lazy" /></a>
         {{ else }}
           {{ with .Params.cover }}
-            {{ $src := partial "media/image-url.html" (dict "page" $page "image" .) }}
+            {{ $src := partial "media/feed-image.html" (dict "page" $page "image" .) }}
             <a href="{{ $link }}"><img class="u-photo updates-feed__image" src="{{ $src }}" alt="{{ $title }}" loading="lazy" /></a>
           {{ end }}
         {{ end }}

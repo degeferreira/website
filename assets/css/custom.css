@@ -449,7 +449,11 @@ picture.author-profile-illustration > img {
 
 .updates-feed__image {
   margin: 0.75rem 0;
-  max-width: min(280px, 100%);
+  width: auto;
+  height: auto;
+  max-width: min(240px, 100%);
+  max-height: 200px;
+  object-fit: contain;
 }
 
 .updates-feed__item:not(.updates-feed__item--compact-note) .e-content.prose {
