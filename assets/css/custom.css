@@ -177,6 +177,7 @@ body > header nav a[title*="Human Circuits"] {
 }
 
 .home-profile__name {
+  font-family: "Recursive Mono Casual", monospace;
   font-size: calc(2.25rem - 1pt);
   line-height: 2.5rem;
 }
