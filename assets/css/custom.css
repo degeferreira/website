@@ -177,8 +177,8 @@ body > header nav a[title*="Human Circuits"] {
 }
 
 .home-profile__name {
-  font-family: "Azeret Mono", monospace;
-  font-weight: 700;
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
   font-size: calc(2.25rem - 1pt);
   line-height: 2.5rem;
 }
