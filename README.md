@@ -164,7 +164,7 @@ O CMS oferece o switch `syndicate_threads` em escritos e notas EN/PT, ativado po
 4. Troque o token curto por um de longa duração em `/access_token`, com `grant_type=th_exchange_token`, App Secret e token curto, seguindo a documentação oficial abaixo.
 5. Em GitHub > Settings > Secrets and variables > Actions, adicione `THREADS_USER_ID` e `THREADS_ACCESS_TOKEN`. Nunca coloque tokens ou App Secret no repositório.
 
-O token longo dura aproximadamente 60 dias; confira o `expires_in` retornado. Renove manualmente antes de expirar em `/refresh_access_token`, com `grant_type=th_refresh_token`, e atualize o secret. Um token expirado exige nova autorização. Não há renovação automática nesta etapa.
+O token longo dura aproximadamente 60 dias. O workflow `Refresh Threads token` renova semanalmente, às segundas às 09:17 UTC (06:17 em Brasília), e atualiza `THREADS_ACCESS_TOKEN`. Ele também pode ser executado manualmente em Actions. Cadastre `THREADS_SECRET_UPDATE_TOKEN` com um fine-grained PAT limitado ao repositório e permissão Secrets de leitura/escrita. Renove esse PAT antes de sua própria expiração. Falhas ficam visíveis no GitHub Actions; habilite notificações de workflows com falha na sua conta. Tokens da Meta expirados ou revogados exigem nova autorização. O token precisa ter ao menos 24 horas para ser renovado.
 
 Para recuperar publicações pendentes, execute Actions > Social syndication > Run workflow. O estado guarda contêiner, ID e permalink. Se o resultado for ambíguo, o script verifica os posts recentes e interrompe a tentativa quando não consegue confirmar; confira a conta antes de limpar o estado pendente. Não apague registros de posts já publicados.
 

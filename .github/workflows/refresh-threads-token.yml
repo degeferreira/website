@@ -1,0 +1,26 @@
+name: Refresh Threads token
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: social-state-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test token refresh offline
+        run: python3 -m unittest discover -s scripts -p 'test_refresh_threads_token.py'
+      - name: Refresh and store Threads token
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_SECRET_UPDATE_TOKEN: ${{ secrets.THREADS_SECRET_UPDATE_TOKEN }}
+        run: python3 scripts/refresh_threads_token.py
