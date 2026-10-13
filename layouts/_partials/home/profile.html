@@ -10,5 +10,6 @@
 </article>
 <section class="home-updates">
   <h2 class="mt-8 text-2xl font-extrabold">{{ $settings.updates_heading | default (cond (eq .Site.Language.Lang "pt-br") "Atualizações" "Updates") }}</h2>
-  {{ partial "updates/feed.html" (dict "context" . "limit" (.Site.Params.homepage.recentLimit | default 5)) }}
+  {{ partial "updates/feed.html" (dict "context" . "paginate" true "limit" (.Site.Params.homepage.recentLimit | default 7)) }}
+  {{ partial "pagination.html" . }}
 </section>

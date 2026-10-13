@@ -4,7 +4,17 @@
 {{- $pages = where $pages "Section" "in" $sections -}}
 {{- $limit := .limit | default 0 -}}
 {{- $pages = sort $pages "Date" "desc" -}}
-{{- if gt $limit 0 -}}
+{{- $visible := slice -}}
+{{- range $pages -}}
+  {{- if or (ne .Section "photos") (ne .Params.show_in_updates false) -}}
+    {{- $visible = $visible | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $pages = $visible -}}
+{{- if .paginate -}}
+  {{- $paginator := $context.Paginate $pages $limit -}}
+  {{- $pages = $paginator.Pages -}}
+{{- else if gt $limit 0 -}}
   {{- $pages = first $limit $pages -}}
 {{- end -}}
 <section class="updates-feed h-feed mt-8 max-w-prose">
