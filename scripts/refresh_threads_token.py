@@ -2,6 +2,7 @@
 import datetime as dt
 import json
 import os
+import re
 import subprocess
 import urllib.error
 import urllib.parse
@@ -15,7 +16,15 @@ def refresh(token):
         with urllib.request.urlopen(request, timeout=30) as response:
             result = json.load(response)
     except urllib.error.HTTPError as exc:
-        raise RuntimeError(f"Meta token refresh failed (HTTP {exc.code}); check token validity and authorization") from None
+        try:
+            data = json.loads(exc.read())
+            error = data.get("error", data)
+            message = str(error.get("message") or error.get("error_message") or "No explanation provided")
+            message = re.sub(r"https?://\S+", "[URL omitted]", message.replace(token, "[token omitted]"))
+            code = error.get("code", "unknown")
+        except (ValueError, AttributeError):
+            message, code = "No structured explanation provided", "unknown"
+        raise RuntimeError(f"Meta token refresh failed (HTTP {exc.code}, code {code}): {message[:400]}") from None
     except urllib.error.URLError:
         raise RuntimeError("Unable to reach Meta token refresh endpoint") from None
     renewed = result.get("access_token")
