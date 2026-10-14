@@ -253,8 +253,8 @@ body > header nav a[title*="Human Circuits"] {
 }
 
 .home-profile__name {
-  font-family: "Source Code Pro", monospace;
-  font-weight: 600;
+  font-family: "iA Writer Mono", monospace;
+  font-weight: 500;
   font-size: 34px;
   line-height: 1.3;
 }

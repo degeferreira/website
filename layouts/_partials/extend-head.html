@@ -2,6 +2,24 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=avatar-20260812-2" />
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=avatar-20260812-2" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=avatar-20260812-2" />
+{{ if .IsHome }}
+<style>
+@font-face {
+  font-family: "iA Writer Mono";
+  src: url("/fonts/ia-writer-mono-500.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "iA Writer Mono";
+  src: url("/fonts/ia-writer-mono-italic-500.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+</style>
+{{ end }}
 {{- $translations := .AllTranslations -}}
 {{- if gt (len $translations) 1 -}}
   {{- range $translations }}
