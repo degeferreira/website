@@ -1,45 +1,31 @@
 @font-face {
-  font-family: "Source Serif 4";
-  src: url("/fonts/source-serif-4-400.woff2") format("woff2");
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/ibm-plex-sans-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Source Serif 4";
-  src: url("/fonts/source-serif-4-600.woff2") format("woff2");
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/ibm-plex-sans-600.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Source Serif 4";
-  src: url("/fonts/source-serif-4-italic-400.woff2") format("woff2");
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/ibm-plex-sans-italic-400.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Source Sans 3";
-  src: url("/fonts/source-sans-3-400.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Source Sans 3";
-  src: url("/fonts/source-sans-3-500.woff2") format("woff2");
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/ibm-plex-sans-500.woff2") format("woff2");
   font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Source Sans 3";
-  src: url("/fonts/source-sans-3-600.woff2") format("woff2");
-  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -70,13 +56,13 @@ html {
 }
 
 body, body.font-sans, .prose, .home-profile__headline {
-  font-family: "Source Serif 4", Georgia, serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
 body > header, body > header a, button, input, textarea, select,
 footer, time, .updates-feed__caption, .social-conversations__actions, .font-sans {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 pre, code, .font-mono {
@@ -84,7 +70,7 @@ pre, code, .font-mono {
 }
 
 h1:not(.home-profile__name), h2:not(.home-profile__headline), h3 {
-  font-family: "Source Serif 4", Georgia, serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 600;
 }
 
@@ -635,7 +621,7 @@ picture.author-profile-illustration > img {
 }
 
 .prose.prose {
-  font-family: "Source Serif 4", Georgia, serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 18px;
   line-height: 1.65;
   max-width: 65ch;
