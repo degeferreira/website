@@ -1,29 +1,91 @@
 @font-face {
-  font-family: "Newsreader";
-  src: url("/fonts/newsreader-400.ttf") format("truetype");
+  font-family: "Source Serif 4";
+  src: url("/fonts/source-serif-4-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Newsreader";
-  src: url("/fonts/newsreader-700.ttf") format("truetype");
-  font-weight: 700;
+  font-family: "Source Serif 4";
+  src: url("/fonts/source-serif-4-600.woff2") format("woff2");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Newsreader";
-  src: url("/fonts/newsreader-italic-400.ttf") format("truetype");
+  font-family: "Source Serif 4";
+  src: url("/fonts/source-serif-4-italic-400.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
-body, button, input, textarea, select, pre, code, .font-sans, .font-mono {
-  font-family: "Newsreader", Georgia, serif;
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("/fonts/source-sans-3-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("/fonts/source-sans-3-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("/fonts/source-sans-3-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("/fonts/source-code-pro-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("/fonts/source-code-pro-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("/fonts/source-code-pro-italic-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+html {
+  font-synthesis: none;
+}
+
+body, body.font-sans, .prose, .home-profile__headline {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+body > header, body > header a, button, input, textarea, select,
+footer, time, .updates-feed__caption, .social-conversations__actions, .font-sans {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+pre, code, .font-mono {
+  font-family: "Source Code Pro", monospace;
+}
+
+h1:not(.home-profile__name), h2:not(.home-profile__headline), h3 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 600;
 }
 
 .webmentions {
@@ -205,15 +267,15 @@ body > header nav a[title*="Human Circuits"] {
 }
 
 .home-profile__name {
-  font-family: "Victor Mono", monospace;
-  font-weight: 700;
-  font-size: calc(2.25rem - 1pt);
-  line-height: 2.5rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.3;
 }
 
 .home-profile__headline {
-  font-size: calc(1.25rem - 1pt);
-  line-height: 1.75rem;
+  font-size: 19px;
+  line-height: 1.5;
   max-width: 38rem;
   text-wrap: balance;
   width: 100%;
@@ -487,7 +549,7 @@ picture.author-profile-illustration > img {
 }
 
 .updates-feed__item:not(.updates-feed__item--compact-note) .e-content.prose {
-  font-size: 0.975rem;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -524,7 +586,7 @@ picture.author-profile-illustration > img {
 }
 
 .updates-feed__item--compact-note .e-content.prose {
-  font-size: calc(1rem - 1pt);
+  font-size: 14.7px;
   font-style: italic;
   line-height: 1.5;
 }
@@ -570,4 +632,32 @@ picture.author-profile-illustration > img {
   .photo-masonry {
     column-count: 3;
   }
+}
+
+.prose.prose {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.65;
+  max-width: 65ch;
+}
+
+body > header nav a {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.updates-feed time,
+.updates-feed__caption {
+  font-size: 13px;
+}
+
+.updates-feed .e-content.prose {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.updates-feed__item--compact-note .e-content.prose {
+  font-size: 14.7px;
+  font-style: italic;
+  line-height: 1.5;
 }

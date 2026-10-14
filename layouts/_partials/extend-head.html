@@ -2,24 +2,6 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=avatar-20260812-2" />
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=avatar-20260812-2" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=avatar-20260812-2" />
-{{ if .IsHome }}
-<style>
-@font-face {
-  font-family: "Victor Mono";
-  src: url("/fonts/victor-mono-700.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Victor Mono";
-  src: url("/fonts/victor-mono-italic-700.ttf") format("truetype");
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-}
-</style>
-{{ end }}
 {{- $translations := .AllTranslations -}}
 {{- if gt (len $translations) 1 -}}
   {{- range $translations }}
