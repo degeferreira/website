@@ -1,4 +1,4 @@
-# Douglas Ferreira — Software, Society & Digital Culture
+# Degê Ferreira — Software, Society & Digital Culture
 
 Psychoanalyst in training, sociologist, and programmer. I write about how digital technologies shape politics, culture, and everyday life.
 
@@ -29,7 +29,7 @@ Description: Longer essays and posts.
 
 ### Tools
 URL: https://douglasferreira.me/tools/
-Description: Apps and digital tools developed by Douglas Ferreira.
+Description: Apps and digital tools developed by Degê Ferreira.
 
 ## Public content
 ### 2026-10-09 08:32

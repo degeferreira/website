@@ -1,4 +1,4 @@
-# Douglas Ferreira — Software, Sociedade & Cultura Digital
+# Degê Ferreira — Software, Sociedade & Cultura Digital
 
 Psicanalista em formação, sociólogo e programador. Escrevo sobre como tecnologias digitais moldam a política, a cultura e o cotidiano.
 
@@ -29,7 +29,7 @@ Description: Livros que estou lendo e já li.
 
 ### Ferramentas
 URL: https://douglasferreira.me/pt-br/tools/
-Description: Aplicativos e ferramentas digitais desenvolvidos por Douglas Ferreira.
+Description: Aplicativos e ferramentas digitais desenvolvidos por Degê Ferreira.
 
 ## Public content
 ### 2026-10-09 08:32
