@@ -2,7 +2,7 @@ languageCode = "pt-br"
 languageName = "Português"
 languageDirection = "ltr"
 weight = 1
-title = "Douglas Ferreira — Software, Sociedade & Cultura Digital"
+title = "Degê Ferreira — Software, Sociedade & Cultura Digital"
 # copyright = "Copiar, _pode?_ :thinking_face:"
 
 [params]
@@ -12,7 +12,7 @@ title = "Douglas Ferreira — Software, Sociedade & Cultura Digital"
   # description = "Meu site pessoal"
 
 [params.author]
-  name = "Douglas Ferreira"
+  name = "Degê Ferreira"
   image = "img/profile.webp"
   headline = "Psicanalista em formação, sociólogo e programador. Escrevo sobre como tecnologias digitais moldam a política, a cultura e o cotidiano."
   bio = "Entusiasta de tecnologias cívicas, desenvolvedor backend especializado em sistemas de dados, analista de dados e pesquisador que investiga como o software molda a sociedade."

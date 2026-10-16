@@ -1,9 +1,9 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Douglas Ferreira Newsletter</title>
+    <title>Degê Ferreira Newsletter</title>
     <link>{{ "newsletter/" | absURL }}</link>
-    <description>Monthly digest of posts selected for the Douglas Ferreira newsletter.</description>
+    <description>Monthly digest of posts selected for the Degê Ferreira newsletter.</description>
     <generator>Hugo</generator>
     <language>{{ .Site.Language.LanguageCode }}</language>
     <atom:link href="{{ "newsletter/index.xml" | absURL }}" rel="self" type="application/rss+xml" />

@@ -2,7 +2,7 @@ languageCode = "en"
 languageName = "English"
 languageDirection = "ltr"
 weight = 1
-title = "Douglas Ferreira — Software, Society & Digital Culture"
+title = "Degê Ferreira — Software, Society & Digital Culture"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
@@ -12,7 +12,7 @@ title = "Douglas Ferreira — Software, Society & Digital Culture"
   # description = "My awesome website"
 
 [params.author]
-  name = "Douglas Ferreira"
+  name = "Degê Ferreira"
     image = "img/profile.webp"
     headline = "Psychoanalyst in training, sociologist, and programmer. I write about how digital technologies shape politics, culture, and everyday life."
     bio = "Researcher, civic technology enthusiast and backend engineer focused on data systems, analytics, and the social implications of software design."

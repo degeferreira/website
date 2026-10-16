@@ -21,7 +21,7 @@
   {{ end }}
   <h1 class="p-name home-profile__name">
     {{ $name := site.Language.Params.Author.name | default site.Title }}
-    {{ if hasPrefix $name "Douglas" }}<em>Douglas</em>{{ strings.TrimPrefix "Douglas" $name }}{{ else }}{{ $name }}{{ end }}
+    {{ if hasPrefix $name "Degê" }}<em>Degê</em>{{ strings.TrimPrefix "Degê" $name }}{{ else }}{{ $name }}{{ end }}
   </h1>
   <a class="u-url sr-only" href="{{ site.Home.Permalink }}">{{ site.Home.Permalink }}</a>
   {{ with $settings.headline | default site.Language.Params.Author.headline }}
