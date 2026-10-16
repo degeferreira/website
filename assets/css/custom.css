@@ -271,8 +271,7 @@ body > header nav a[title*="Human Circuits"] {
 }
 
 .home-profile__name em {
-  font-style: italic;
-  font-synthesis: style;
+  font-style: normal;
 }
 
 .home-profile__headline {
