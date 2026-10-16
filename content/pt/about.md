@@ -7,7 +7,7 @@ image = "/uploads/WhatsApp%20Image%202026-06-23%20at%2015%2C47%2C05-photoaidcom-
 layout = "about"
 +++
 
-Fui nomeado Douglas da Silva Ferreira pela minha mãe em Petrópolis, em 1991. 
+Fui nomeado Douglas da Silva Ferreira pela minha mãe em Petrópolis, em 1991. Degê por meus alunos, durante meus, até agora, 12 anos de docência.
 
 Entre a queda da União Soviética e os dias de hoje, joguei mais jogos e vi mais animes que provavelmente deveria, e apesar de não ter crescido com livros em casa, li um volume considerável. Quando garoto, queria ser escritor, mas até hoje não consegui, apesar de escrever umas coisas. Além disso, faço análise há 12 anos, e perambulo pela [Letra Freudiana](https://escolaletrafreudiana.com.br/), tentando me tornar analista.
 
