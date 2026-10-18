@@ -71,6 +71,34 @@ body > header nav {
   font-weight: 500;
 }
 
+body > header button[id^="appearance-switcher"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin-top: -4px;
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+body > header button[id^="appearance-switcher"]:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+body > header button[id^="appearance-switcher"] .icon {
+  padding-inline: 0;
+}
+
+.header-theme-locale {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  white-space: nowrap;
+}
+
 pre, code, .font-mono {
   font-family: "Source Code Pro", monospace;
 }
