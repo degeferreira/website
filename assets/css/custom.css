@@ -270,14 +270,14 @@ body > header nav > ul > li {
 
 body > header nav a[title*="Circuitos Humanos"],
 body > header nav a[title*="Human Circuits"] {
-  color: #5f006f;
+  color: #ad571f;
   font-weight: 700;
   font-size: calc(15px + 1.5pt);
 }
 
 .dark body > header nav a[title*="Circuitos Humanos"],
 .dark body > header nav a[title*="Human Circuits"] {
-  color: #f3d5ff;
+  color: #efa568;
 }
 
 .author-social-link--youtube {
