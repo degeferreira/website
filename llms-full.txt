@@ -32,6 +32,16 @@ URL: https://douglasferreira.me/tools/
 Description: Apps and digital tools developed by Degê Ferreira.
 
 ## Public content
+### 2026-10-18 19:53
+URL: https://douglasferreira.me/microposts/2026-10-18-19-53-57-aed5ae47/
+Language: en
+Section: microposts
+Published: 2026-10-18
+
+
+Summary: Looks like I’ve finished setting up the site and the integration. One last test of content distribution from Silverbullet.
+
+
 ### 2026-10-09 08:32
 URL: https://douglasferreira.me/microposts/2026-10-09-11-33-12/
 Language: en
@@ -39,7 +49,7 @@ Section: microposts
 Published: 2026-10-09
 
 
-Summary: testing Threads + Instagram and website integration; automatic publishing.
+Summary: testing the Threads + Instagram and website integration; automatic publishing.
 
 
 ### 2026-10-09 08:27
@@ -49,7 +59,7 @@ Section: microposts
 Published: 2026-10-09
 
 
-Summary: testing the website integration with Instagram + Threads.
+Summary: Testing the website integration with Instagram + Threads.
 
 
 ### 2026-10-09 08:05
@@ -79,15 +89,15 @@ Section: microposts
 Published: 2026-07-13
 
 
-Summary: I finally finished setting this thing up. I’ll fill in the missing fields soon. That’s enough for today!
+Summary: Finally finished setting this thing up. I’ll fill in the missing fields soon. I’m calling it a day!
 
 
-### TikTok Redefines How Generation Z Searches for Information and Influences Behavior
+### TikTok Redefines How Generation Z Searches for Information and Influences Their Behavior
 URL: https://douglasferreira.me/media/tiktok-redefine-a-forma-de-buscar-informacao-e-influencia-comportamento-da-geracao-z/
 Language: en
 Section: media
 Published: 2026-07-13
-Description: Young people turn to short videos to search for information, while platforms and technologies adapt to this new behavior
+Description: Young people turn to short videos for research, while platforms and technologies adapt to this new behavior
 
 Summary: 
 
@@ -98,6 +108,6 @@ Section: books
 
 
 
-Summary: So far, I’m really enjoying it, mainly because it resonates with this stage of life when we grow apart from our friends and wish they were still close. And also because I lost a friend I love very much—we stopped speaking.
+Summary: So far, I’m really enjoying it, mainly because it resonates with that time in life when we drift far away from our friends and wish they were still close. Also because I lost a friend I love very much—we stopped talking.
 
 
