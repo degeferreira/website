@@ -1,0 +1,7 @@
+{{ $dark := resources.Get "img/profile-dark.webp" }}
+{{ if and $dark (eq (path.Base .img.Name) "profile.webp") }}
+  {{ partial "picture.html" (merge . (dict "class" (printf "%s theme-profile--light" .class))) }}
+  {{ partial "picture.html" (merge . (dict "img" $dark "lazy" false "class" (printf "%s theme-profile--dark" .class))) }}
+{{ else }}
+  {{ partial "picture.html" . }}
+{{ end }}

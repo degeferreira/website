@@ -588,6 +588,15 @@ picture.author-profile-illustration > img {
   line-height: 1.5;
 }
 
+picture.theme-profile--dark,
+.dark picture.theme-profile--light {
+  display: none;
+}
+
+.dark picture.theme-profile--dark {
+  display: block;
+}
+
 .updates-feed__item--compact-note .e-content.prose > :first-child {
   margin-top: 0.25rem;
 }

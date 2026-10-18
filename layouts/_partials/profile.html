@@ -16,7 +16,7 @@
     {{ if $authorImage }}
       {{ $imgClass := "profile-illustration u-photo" }}
       {{ $webp := $.Page.Site.Params.enableImageWebp | default true }}
-      {{ partial "picture.html" (dict "img" $authorImage "alt" $altText "class" $imgClass "lazy" $lazy "webp" $webp) }}
+      {{ partial "theme-profile-picture.html" (dict "img" $authorImage "alt" $altText "class" $imgClass "lazy" $lazy "webp" $webp) }}
     {{ end }}
   {{ end }}
   <h1 class="p-name home-profile__name">

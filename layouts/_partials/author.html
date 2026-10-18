@@ -7,7 +7,7 @@
       {{ $authorImage := resources.Get . }}
       {{ if $authorImage }}
         {{ $imgClass := "author-profile-illustration u-photo" }}
-        {{ partial "picture.html" (dict "img" $authorImage "alt" $altText "class" $imgClass "lazy" $lazy  ) }}
+        {{ partial "theme-profile-picture.html" (dict "img" $authorImage "alt" $altText "class" $imgClass "lazy" $lazy  ) }}
       {{ end }}
     {{ end }}
     <div class="place-self-center">
