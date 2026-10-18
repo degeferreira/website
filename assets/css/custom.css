@@ -58,12 +58,12 @@ body, body.font-sans, .prose {
 body > header, body > header a, button, input, textarea, select,
 footer, time, .updates-feed__caption, .social-conversations__actions, .font-sans {
   font-family: "Recursive Sans Casual", sans-serif;
-  font-variation-settings: "MONO" 0, "CASL" 0.6;
+  font-variation-settings: "MONO" 0, "CASL" 0.2;
 }
 
 .home-profile__headline {
   font-family: "Recursive Sans Casual", sans-serif;
-  font-variation-settings: "MONO" 0, "CASL" 0.6;
+  font-variation-settings: "MONO" 0, "CASL" 0.2;
 }
 
 pre, code, .font-mono {
@@ -72,7 +72,7 @@ pre, code, .font-mono {
 
 h1:not(.home-profile__name), h2:not(.home-profile__headline), h3 {
   font-family: "Recursive Sans Casual", sans-serif;
-  font-variation-settings: "MONO" 0, "CASL" 0.6;
+  font-variation-settings: "MONO" 0, "CASL" 0.2;
   font-weight: 600;
 }
 
