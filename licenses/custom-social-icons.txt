@@ -1,0 +1,10 @@
+Custom outline adaptations for Letterboxd, Ko-fi, MyAnimeList, ORCID and
+ResearchGate, created for this site in 2026. These are unofficial navigation
+symbols, not replacement brand identities. Brand names and marks remain the
+property of their respective owners.
+
+Custom SVG artwork: MIT license. Copyright (c) 2026 Dege Ferreira.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies, provided this notice is included in all copies.
+THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND.
