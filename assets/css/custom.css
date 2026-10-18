@@ -272,7 +272,7 @@ body > header nav a[title*="Circuitos Humanos"],
 body > header nav a[title*="Human Circuits"] {
   color: #5f006f;
   font-weight: 700;
-  font-size: calc(1em + 0.5pt);
+  font-size: calc(15px + 1.5pt);
 }
 
 .dark body > header nav a[title*="Circuitos Humanos"],
@@ -789,6 +789,10 @@ picture.theme-profile--dark,
 body > header nav a {
   font-size: calc(15px + 1pt);
   font-weight: 500;
+}
+
+.header-author-name {
+  font-weight: 700;
 }
 
 .updates-feed time,
