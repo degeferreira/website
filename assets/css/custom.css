@@ -686,7 +686,7 @@ picture.author-profile-illustration > img {
 }
 
 .updates-feed__item--compact-note .e-content.prose {
-  font-size: 14.7px;
+  font-size: calc(14.7px + 0.5pt);
   font-style: italic;
   line-height: 1.5;
 }
@@ -806,7 +806,7 @@ body > header nav a {
 }
 
 .updates-feed__item--compact-note .e-content.prose {
-  font-size: 14.7px;
+  font-size: calc(14.7px + 0.5pt);
   font-style: italic;
   line-height: 1.5;
 }
