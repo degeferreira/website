@@ -226,6 +226,33 @@
     },
     "title": "2026-10-09-11-33-12"
   },
+  "content/en/microposts/2026-10-18-19-53-57-aed5ae47.md": {
+    "comments": [],
+    "permalink": "https://douglasferreira.me/microposts/2026-10-18-19-53-57-aed5ae47/",
+    "targets": {
+      "bluesky": {
+        "cid": "bafyreib7fkehlrhuekaqkewzobwp6v6rtnne3dy52u54bd4jaeth7p43vq",
+        "published_at": "2026-10-18T22:58:46Z",
+        "uri": "at://did:plc:lzwaqbkcorbuts46hli7cnid/app.bsky.feed.post/6dsbdzfaxvpss",
+        "url": "https://bsky.app/profile/douglasferreira.me/post/6dsbdzfaxvpss"
+      },
+      "mastodon": {
+        "id": "117464388613889942",
+        "published_at": "2026-10-18T22:58:48Z",
+        "url": "https://mastodon.social/@douglasferreira/117464388613889942"
+      },
+      "threads": {
+        "container_id": "17945655264347099",
+        "id": "18199050490387894",
+        "publish_attempted": true,
+        "published_at": "2026-10-18T22:59:02Z",
+        "started_at": "2026-10-18T22:58:51Z",
+        "text_hash": "bff81a70ab7033999363773db55e3f01791e39591f830c6b29dc760505e2a98d",
+        "url": "https://www.threads.com/@douglasferreira.me/post/Depz5FEn_c-"
+      }
+    },
+    "title": "2026-10-18-19-53-57-aed5ae47"
+  },
   "content/en/microposts/testando-para-ver-como-funciona-isso.md": {
     "comments": [],
     "permalink": "https://douglasferreira.me/microposts/testando-para-ver-como-funciona-isso/",
@@ -470,6 +497,33 @@
       }
     },
     "title": "2026-10-09-11-33-12"
+  },
+  "content/pt/microposts/2026-10-18-19-53-57-aed5ae47.md": {
+    "comments": [],
+    "permalink": "https://douglasferreira.me/pt-br/microposts/2026-10-18-19-53-57-aed5ae47/",
+    "targets": {
+      "bluesky": {
+        "cid": "bafyreif4fuctz2i533gq3ps36d4sn6byzxpkoh2dm5tvqueztmri4jjgla",
+        "published_at": "2026-10-18T22:59:03Z",
+        "uri": "at://did:plc:lzwaqbkcorbuts46hli7cnid/app.bsky.feed.post/aaif4iaoxdbct",
+        "url": "https://bsky.app/profile/douglasferreira.me/post/aaif4iaoxdbct"
+      },
+      "mastodon": {
+        "id": "117464389656396609",
+        "published_at": "2026-10-18T22:59:04Z",
+        "url": "https://mastodon.social/@douglasferreira/117464389656396609"
+      },
+      "threads": {
+        "container_id": "17945655276347099",
+        "id": "18121093001287202",
+        "publish_attempted": true,
+        "published_at": "2026-10-18T22:59:17Z",
+        "started_at": "2026-10-18T22:59:06Z",
+        "text_hash": "f360f79a904c4322f46dcfc6618e7021c23aee1150cefba313e23eef93c1c71c",
+        "url": "https://www.threads.com/@douglasferreira.me/post/Depz67hH5gr"
+      }
+    },
+    "title": "2026-10-18-19-53-57-aed5ae47"
   },
   "content/pt/microposts/testando-para-ver-como-funciona-isso.md": {
     "comments": [],
