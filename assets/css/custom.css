@@ -99,6 +99,81 @@ body > header button[id^="appearance-switcher"] .icon {
   white-space: nowrap;
 }
 
+.mobile-navigation-controls {
+  display: none;
+}
+
+.mobile-menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 22px;
+}
+
+.mobile-menu-close-icon,
+.mobile-menu-toggle[aria-expanded="true"] .mobile-menu-open-icon {
+  display: none;
+}
+
+.mobile-menu-toggle[aria-expanded="true"] .mobile-menu-close-icon {
+  display: inline;
+}
+
+@media (max-width: 767px) {
+  body > header .site-navigation {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  body > header .site-navigation > div:first-child {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .mobile-navigation-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex: 0 0 auto;
+  }
+
+  body > header nav > #site-main-menu {
+    display: none;
+    flex: 0 0 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0.75rem 0 0;
+    border-top: 1px solid rgb(var(--color-neutral-300));
+  }
+
+  body > header .mobile-menu-expanded > #site-main-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: left;
+    gap: 0.25rem;
+  }
+
+  #site-main-menu > li > a,
+  #site-main-menu > li > button {
+    display: block;
+    padding-block: 0.4rem;
+  }
+
+  #site-main-menu .desktop-locale-control {
+    display: none;
+  }
+
+  .mobile-menu-toggle:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+}
+
 pre, code, .font-mono {
   font-family: "Source Code Pro", monospace;
 }
