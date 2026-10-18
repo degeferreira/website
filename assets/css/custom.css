@@ -634,7 +634,7 @@ picture.author-profile-illustration > img {
 }
 
 .updates-feed__item h2 {
-  font-size: 1.125rem;
+  font-size: calc(1.125rem + 0.5pt);
   font-weight: 700;
   margin: 0.25rem 0 0.5rem;
 }
@@ -686,7 +686,7 @@ picture.author-profile-illustration > img {
 }
 
 .updates-feed__item--compact-note .e-content.prose {
-  font-size: calc(14.7px + 0.5pt);
+  font-size: calc(14.7px + 1pt);
   font-style: italic;
   line-height: 1.5;
 }
@@ -806,7 +806,7 @@ body > header nav a {
 }
 
 .updates-feed__item--compact-note .e-content.prose {
-  font-size: calc(14.7px + 0.5pt);
+  font-size: calc(14.7px + 1pt);
   font-style: italic;
   line-height: 1.5;
 }
