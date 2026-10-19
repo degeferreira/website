@@ -52,7 +52,7 @@ html {
 }
 
 :root {
-  --color-neutral: 253, 252, 249;
+  --color-neutral: 255, 254, 252;
   --color-neutral-600: 98, 100, 95;
   --color-neutral-700: 98, 100, 95;
   --color-neutral-800: 41, 50, 56;
