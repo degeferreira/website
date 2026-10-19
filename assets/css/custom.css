@@ -51,8 +51,57 @@ html {
   font-synthesis: none;
 }
 
+:root {
+  --color-neutral: 247, 248, 246;
+  --color-neutral-600: 98, 100, 95;
+  --color-neutral-700: 98, 100, 95;
+  --color-neutral-800: 41, 50, 56;
+  --color-neutral-900: 41, 50, 56;
+  --site-text: #293238;
+  --site-muted: #62645f;
+  --site-icon: #716a60;
+  --site-accent: #ad571f;
+}
+
 html.dark {
   --color-neutral-800: 35, 44, 50;
+  --color-neutral: 231, 227, 218;
+  --color-neutral-300: 231, 227, 218;
+  --color-neutral-400: 179, 173, 162;
+  --color-neutral-500: 179, 173, 162;
+  --site-text: #e7e3da;
+  --site-muted: #b3ada2;
+  --site-icon: #a49c8e;
+  --site-accent: #efa568;
+}
+
+body,
+body > header {
+  color: var(--site-text);
+}
+
+.prose {
+  --tw-prose-body: var(--site-text);
+  --tw-prose-headings: var(--site-text);
+  --tw-prose-bold: var(--site-text);
+  --tw-prose-links: var(--site-accent);
+  --tw-prose-invert-body: var(--site-text);
+  --tw-prose-invert-headings: var(--site-text);
+  --tw-prose-invert-bold: var(--site-text);
+  --tw-prose-invert-links: var(--site-accent);
+}
+
+.home-profile__headline,
+.updates-feed time,
+.updates-feed__caption,
+.translation-notice {
+  color: var(--site-muted);
+}
+
+body > header .icon,
+body > header button[id^="appearance-switcher"],
+.mobile-menu-toggle {
+  color: var(--site-icon);
 }
 
 body, body.font-sans, .prose {
@@ -274,14 +323,14 @@ body > header nav > ul > li {
 
 body > header nav a[title*="Circuitos Humanos"],
 body > header nav a[title*="Human Circuits"] {
-  color: #ad571f;
+  color: var(--site-accent);
   font-weight: 700;
   font-size: calc(15px + 1.5pt);
 }
 
 .dark body > header nav a[title*="Circuitos Humanos"],
 .dark body > header nav a[title*="Human Circuits"] {
-  color: #efa568;
+  color: var(--site-accent);
 }
 
 .author-social-link--youtube {
@@ -295,7 +344,7 @@ body > header nav a[title*="Human Circuits"] {
 }
 
 .author-social-links {
-  color: #807a6f;
+  color: var(--site-icon);
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
