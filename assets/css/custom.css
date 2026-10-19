@@ -51,6 +51,10 @@ html {
   font-synthesis: none;
 }
 
+html.dark {
+  --color-neutral-800: 35, 44, 50;
+}
+
 body, body.font-sans, .prose {
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
