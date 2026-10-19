@@ -793,7 +793,7 @@ body > header nav a {
 }
 
 .header-author-name {
-  font-weight: 700;
+  font-weight: inherit;
 }
 
 .updates-feed time,
