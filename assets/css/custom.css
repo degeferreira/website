@@ -409,13 +409,18 @@ body > header nav a[title*="Human Circuits"] {
 }
 
 .author-social-link--youtube {
-  color: #e34b4b;
+  color: #b94b40;
   font-size: 1.57em;
   margin-inline: 0.35rem;
 }
 
 .author-social-link--youtube:hover {
-  color: #e34b4b;
+  color: #b94b40;
+}
+
+.dark .author-social-link--youtube,
+.dark .author-social-link--youtube:hover {
+  color: #e47768;
 }
 
 .author-social-links {
