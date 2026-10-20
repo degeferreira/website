@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector(".newsletter-test-banner");if(!e)return;e.querySelector("button").addEventListener("click",()=>{e.hidden=!0}),window.addEventListener("pageshow",()=>{e.hidden=!1})})()
