@@ -51,6 +51,59 @@ html {
   font-synthesis: none;
 }
 
+.newsletter-test-banner {
+  position: relative;
+  padding: 0.65rem 2.5rem 0.65rem 0.5rem;
+  background: #f3b37c;
+  color: #293238;
+  box-shadow: 0 0 0 100vmax #f3b37c;
+  clip-path: inset(0 -100vmax);
+  font-family: "Inconsolata", monospace;
+  font-stretch: 90%;
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.newsletter-test-banner[hidden] {
+  display: none;
+}
+
+.newsletter-test-banner p {
+  margin: 0;
+}
+
+.newsletter-test-banner a {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.newsletter-test-banner__close {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.newsletter-test-banner a:focus-visible,
+.newsletter-test-banner__close:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.dark .newsletter-test-banner {
+  background: #c67b48;
+  box-shadow: 0 0 0 100vmax #c67b48;
+  color: #172027;
+}
+
 :root {
   --color-neutral: 255, 254, 252;
   --color-neutral-600: 98, 100, 95;

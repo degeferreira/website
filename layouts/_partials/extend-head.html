@@ -5,6 +5,8 @@
 {{ $mobileMenu := resources.Get "js/mobile-menu.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $mobileMenu.RelPermalink }}" integrity="{{ $mobileMenu.Data.Integrity }}"></script>
 {{ if .IsHome }}
+{{ $newsletterTestBanner := resources.Get "js/newsletter-test-banner.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $newsletterTestBanner.RelPermalink }}" integrity="{{ $newsletterTestBanner.Data.Integrity }}"></script>
 <style>
 @font-face {
   font-family: "Cutive Mono";

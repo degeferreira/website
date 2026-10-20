@@ -1,0 +1,14 @@
+{{ if .IsHome }}
+<aside class="newsletter-test-banner print:hidden" aria-label="{{ if eq .Language.Lang "pt-br" }}Teste de divulgação da newsletter{{ else }}Newsletter banner test{{ end }}">
+  <p>
+    {{ if eq .Language.Lang "pt-br" }}
+      <strong>Teste de faixa:</strong> este espaço vai divulgar a newsletter Circuitos Humanos.
+      <a href="https://example.com/?newsletter-banner-test" target="_blank" rel="noopener noreferrer">Abrir link de demonstração <span aria-hidden="true">↗</span></a>
+    {{ else }}
+      <strong>Banner test:</strong> this space will feature the Human Circuits newsletter.
+      <a href="https://example.com/?newsletter-banner-test" target="_blank" rel="noopener noreferrer">Open demo link <span aria-hidden="true">↗</span></a>
+    {{ end }}
+  </p>
+  <button type="button" class="newsletter-test-banner__close" aria-label="{{ if eq .Language.Lang "pt-br" }}Fechar faixa de teste{{ else }}Dismiss test banner{{ end }}" title="{{ if eq .Language.Lang "pt-br" }}Fechar{{ else }}Close{{ end }}">{{ partial "icon.html" "xmark" }}</button>
+</aside>
+{{ end }}
