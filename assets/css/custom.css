@@ -194,6 +194,28 @@ body > header button[id^="appearance-switcher"] .icon {
     flex: 0 0 auto;
   }
 
+  .mobile-navigation-controls .mobile-menu-toggle {
+    width: 36px;
+    height: 36px;
+    font-size: 26px;
+  }
+
+  .mobile-navigation-controls .header-theme-locale > .group > button {
+    min-height: 32px;
+    font-size: 14px;
+  }
+
+  .mobile-navigation-controls .header-theme-locale .text-sm {
+    font-size: 12px;
+  }
+
+  body > header .mobile-navigation-controls button[id^="appearance-switcher"] {
+    width: 32px;
+    height: 32px;
+    margin-top: 0;
+    font-size: 14px;
+  }
+
   body > header nav > #site-main-menu {
     display: none;
     flex: 0 0 100%;
