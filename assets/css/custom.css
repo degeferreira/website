@@ -60,7 +60,7 @@ html {
   clip-path: inset(0 -100vmax);
   font-family: "Inconsolata", monospace;
   font-stretch: 90%;
-  font-size: 14px;
+  font-size: calc(14px + 2pt);
   line-height: 1.45;
   text-align: center;
 }
