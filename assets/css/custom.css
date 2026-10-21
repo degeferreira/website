@@ -54,9 +54,9 @@ html {
 .newsletter-test-banner {
   position: relative;
   padding: 0.65rem 2.5rem 0.65rem 0.5rem;
-  background: #f3b37c;
-  color: #293238;
-  box-shadow: 0 0 0 100vmax #f3b37c;
+  background: #ad571f;
+  color: #fffffd;
+  box-shadow: 0 0 0 100vmax #ad571f;
   clip-path: inset(0 -100vmax);
   font-family: "Inconsolata", monospace;
   font-stretch: 90%;
@@ -74,12 +74,14 @@ html {
 }
 
 .newsletter-test-banner a {
+  color: inherit;
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
 .newsletter-test-banner__close {
+  color: inherit;
   position: absolute;
   right: 0;
   top: 50%;
@@ -96,12 +98,6 @@ html {
 .newsletter-test-banner__close:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 2px;
-}
-
-.dark .newsletter-test-banner {
-  background: #c67b48;
-  box-shadow: 0 0 0 100vmax #c67b48;
-  color: #172027;
 }
 
 :root {
