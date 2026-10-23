@@ -2,38 +2,38 @@
 
 Psychoanalyst in training, sociologist, and programmer. I write about how digital technologies shape politics, culture, and everyday life.
 
-Canonical site: https://douglasferreira.me/
+Canonical site: https://degeferreira.me/
 Language: en
-Sitemap: https://douglasferreira.me/sitemap.xml
+Sitemap: https://degeferreira.me/sitemap.xml
 
 ## Site sections
 ### Microposts
-URL: https://douglasferreira.me/microposts/
+URL: https://degeferreira.me/microposts/
 Description: Short notes and quick updates.
 
 ### In the Media
-URL: https://douglasferreira.me/media/
+URL: https://degeferreira.me/media/
 Description: Interviews, mentions, and public appearances.
 
 ### Photos
-URL: https://douglasferreira.me/photos/
+URL: https://degeferreira.me/photos/
 Description: A visual notebook of photos and captions.
 
 ### Readings
-URL: https://douglasferreira.me/books/
+URL: https://degeferreira.me/books/
 Description: Books I am reading and have read.
 
 ### Writings
-URL: https://douglasferreira.me/blog/
+URL: https://degeferreira.me/blog/
 Description: Longer essays and posts.
 
 ### Tools
-URL: https://douglasferreira.me/tools/
+URL: https://degeferreira.me/tools/
 Description: Apps and digital tools developed by Degê Ferreira.
 
 ## Public content
 ### 2026-10-18 19:53
-URL: https://douglasferreira.me/microposts/2026-10-18-19-53-57-aed5ae47/
+URL: https://degeferreira.me/microposts/2026-10-18-19-53-57-aed5ae47/
 Language: en
 Section: microposts
 Published: 2026-10-18
@@ -43,7 +43,7 @@ Summary: Looks like I’ve finished setting up the site and the integration. One
 
 
 ### 2026-10-09 08:32
-URL: https://douglasferreira.me/microposts/2026-10-09-11-33-12/
+URL: https://degeferreira.me/microposts/2026-10-09-11-33-12/
 Language: en
 Section: microposts
 Published: 2026-10-09
@@ -53,7 +53,7 @@ Summary: testing the Threads + Instagram and website integration; automatic publ
 
 
 ### 2026-10-09 08:27
-URL: https://douglasferreira.me/microposts/2026-10-09-11-27-29/
+URL: https://degeferreira.me/microposts/2026-10-09-11-27-29/
 Language: en
 Section: microposts
 Published: 2026-10-09
@@ -63,7 +63,7 @@ Summary: Testing the website integration with Instagram + Threads.
 
 
 ### 2026-10-09 08:05
-URL: https://douglasferreira.me/microposts/2026-10-09-11-09-13/
+URL: https://degeferreira.me/microposts/2026-10-09-11-09-13/
 Language: en
 Section: microposts
 Published: 2026-10-09
@@ -73,7 +73,7 @@ Summary: testing the website integration with Threads
 
 
 ### 2026-10-03 13:00
-URL: https://douglasferreira.me/microposts/2026-10-03-13-00-37-12103c96/
+URL: https://degeferreira.me/microposts/2026-10-03-13-00-37-12103c96/
 Language: en
 Section: microposts
 Published: 2026-10-03
@@ -83,7 +83,7 @@ Summary: Testing the SilverBullet integration.
 
 
 ### 2026-07-13 20:05
-URL: https://douglasferreira.me/microposts/2026-07-13-23-07-06/
+URL: https://degeferreira.me/microposts/2026-07-13-23-07-06/
 Language: en
 Section: microposts
 Published: 2026-07-13
@@ -93,7 +93,7 @@ Summary: Finally finished setting this thing up. I’ll fill in the missing fiel
 
 
 ### TikTok Redefines How Generation Z Searches for Information and Influences Their Behavior
-URL: https://douglasferreira.me/media/tiktok-redefine-a-forma-de-buscar-informacao-e-influencia-comportamento-da-geracao-z/
+URL: https://degeferreira.me/media/tiktok-redefine-a-forma-de-buscar-informacao-e-influencia-comportamento-da-geracao-z/
 Language: en
 Section: media
 Published: 2026-07-13
@@ -102,7 +102,7 @@ Description: Young people turn to short videos for research, while platforms and
 Summary: 
 
 ### Colorless Tsukuru Tazaki and His Years of Pilgrimage
-URL: https://douglasferreira.me/books/o-incolor-tsukuru-tazaki-e-seus-anos-de-peregrinacao/
+URL: https://degeferreira.me/books/o-incolor-tsukuru-tazaki-e-seus-anos-de-peregrinacao/
 Language: en
 Section: books
 

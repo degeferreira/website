@@ -2,7 +2,7 @@
 
 Psychoanalyst in training, sociologist, and programmer. I write about how digital technologies shape politics, culture, and everyday life.
 
-Canonical site: https://douglasferreira.me/
+Canonical site: https://degeferreira.me/
 Primary language: en
 
 ## Languages
@@ -11,22 +11,22 @@ Primary language: en
 
 
 ## Main sections
-- Microposts: https://douglasferreira.me/microposts/ — Short notes and quick updates.
-- In the Media: https://douglasferreira.me/media/ — Interviews, mentions, and public appearances.
-- Photos: https://douglasferreira.me/photos/ — A visual notebook of photos and captions.
-- Readings: https://douglasferreira.me/books/ — Books I am reading and have read.
-- Writings: https://douglasferreira.me/blog/ — Longer essays and posts.
+- Microposts: https://degeferreira.me/microposts/ — Short notes and quick updates.
+- In the Media: https://degeferreira.me/media/ — Interviews, mentions, and public appearances.
+- Photos: https://degeferreira.me/photos/ — A visual notebook of photos and captions.
+- Readings: https://degeferreira.me/books/ — Books I am reading and have read.
+- Writings: https://degeferreira.me/blog/ — Longer essays and posts.
 
 
-- Tools: https://douglasferreira.me/tools/
+- Tools: https://degeferreira.me/tools/
 ## Feeds and machine-readable resources
-- Sitemap: https://douglasferreira.me/sitemap.xml
-- RSS: https://douglasferreira.me/index.xml
-- JSON feed/search index: https://douglasferreira.me/index.json
-- Newsletter RSS: https://douglasferreira.me/newsletter/index.xml
-- Full LLM context: https://douglasferreira.me/llms-full.txt
+- Sitemap: https://degeferreira.me/sitemap.xml
+- RSS: https://degeferreira.me/index.xml
+- JSON feed/search index: https://degeferreira.me/index.json
+- Newsletter RSS: https://degeferreira.me/newsletter/index.xml
+- Full LLM context: https://degeferreira.me/llms-full.txt
 
 ## About
-- Home: https://douglasferreira.me/
-- About: https://douglasferreira.me/about/
-- Papers: https://douglasferreira.me/papers/
+- Home: https://degeferreira.me/
+- About: https://degeferreira.me/about/
+- Papers: https://degeferreira.me/papers/

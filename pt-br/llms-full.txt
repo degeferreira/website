@@ -2,38 +2,38 @@
 
 Psicanalista em formação, sociólogo e programador. Escrevo sobre como tecnologias digitais moldam a política, a cultura e o cotidiano.
 
-Canonical site: https://douglasferreira.me/
+Canonical site: https://degeferreira.me/
 Language: pt-br
-Sitemap: https://douglasferreira.me/sitemap.xml
+Sitemap: https://degeferreira.me/sitemap.xml
 
 ## Site sections
 ### Microposts
-URL: https://douglasferreira.me/pt-br/microposts/
+URL: https://degeferreira.me/pt-br/microposts/
 Description: Notas curtas e atualizações rápidas.
 
 ### Na mídia
-URL: https://douglasferreira.me/pt-br/media/
+URL: https://degeferreira.me/pt-br/media/
 Description: Entrevistas, menções e aparições públicas.
 
 ### Escritos
-URL: https://douglasferreira.me/pt-br/blog/
+URL: https://degeferreira.me/pt-br/blog/
 Description: Textos longos e ensaios.
 
 ### Fotografias
-URL: https://douglasferreira.me/pt-br/photos/
+URL: https://degeferreira.me/pt-br/photos/
 Description: Um caderno visual de fotos e legendas.
 
 ### Leituras
-URL: https://douglasferreira.me/pt-br/books/
+URL: https://degeferreira.me/pt-br/books/
 Description: Livros que estou lendo e já li.
 
 ### Ferramentas
-URL: https://douglasferreira.me/pt-br/tools/
+URL: https://degeferreira.me/pt-br/tools/
 Description: Aplicativos e ferramentas digitais desenvolvidos por Degê Ferreira.
 
 ## Public content
 ### 2026-10-18 19:53
-URL: https://douglasferreira.me/pt-br/microposts/2026-10-18-19-53-57-aed5ae47/
+URL: https://degeferreira.me/pt-br/microposts/2026-10-18-19-53-57-aed5ae47/
 Language: pt-br
 Section: microposts
 Published: 2026-10-18
@@ -43,7 +43,7 @@ Summary: Parece que terminei a configuração do site, e a integração. Último
 
 
 ### 2026-10-09 08:32
-URL: https://douglasferreira.me/pt-br/microposts/2026-10-09-11-33-12/
+URL: https://degeferreira.me/pt-br/microposts/2026-10-09-11-33-12/
 Language: pt-br
 Section: microposts
 Published: 2026-10-09
@@ -53,7 +53,7 @@ Summary: testando integração com threads + instagram e o website; publicação
 
 
 ### 2026-10-09 08:27
-URL: https://douglasferreira.me/pt-br/microposts/2026-10-09-11-27-29/
+URL: https://degeferreira.me/pt-br/microposts/2026-10-09-11-27-29/
 Language: pt-br
 Section: microposts
 Published: 2026-10-09
@@ -63,7 +63,7 @@ Summary: testando integração do website com instagram + threads.
 
 
 ### 2026-10-09 08:05
-URL: https://douglasferreira.me/pt-br/microposts/2026-10-09-11-09-13/
+URL: https://degeferreira.me/pt-br/microposts/2026-10-09-11-09-13/
 Language: pt-br
 Section: microposts
 Published: 2026-10-09
@@ -73,7 +73,7 @@ Summary: testando integração do website com threads
 
 
 ### 2026-10-03 13:00
-URL: https://douglasferreira.me/pt-br/microposts/2026-10-03-13-00-37-12103c96/
+URL: https://degeferreira.me/pt-br/microposts/2026-10-03-13-00-37-12103c96/
 Language: pt-br
 Section: microposts
 Published: 2026-10-03
@@ -83,7 +83,7 @@ Summary: Testando integração com o silverbullet.
 
 
 ### 2026-07-13 20:05
-URL: https://douglasferreira.me/pt-br/microposts/2026-07-13-23-07-06/
+URL: https://degeferreira.me/pt-br/microposts/2026-07-13-23-07-06/
 Language: pt-br
 Section: microposts
 Published: 2026-07-13
@@ -93,7 +93,7 @@ Summary: Finalmente acabei de configurar essa parada. Em breve vou preencher os 
 
 
 ### TikTok redefine a forma de buscar informação e influência comportamento da Geração Z
-URL: https://douglasferreira.me/pt-br/media/tiktok-redefine-a-forma-de-buscar-informacao-e-influencia-comportamento-da-geracao-z/
+URL: https://degeferreira.me/pt-br/media/tiktok-redefine-a-forma-de-buscar-informacao-e-influencia-comportamento-da-geracao-z/
 Language: pt-br
 Section: media
 Published: 2026-07-13
@@ -102,7 +102,7 @@ Description: Jovens recorrem a vídeos curtos para pesquisar, enquanto plataform
 Summary: 
 
 ### O incolor Tsukuru Tazaki e seus anos de peregrinação
-URL: https://douglasferreira.me/pt-br/books/o-incolor-tsukuru-tazaki-e-seus-anos-de-peregrinacao/
+URL: https://degeferreira.me/pt-br/books/o-incolor-tsukuru-tazaki-e-seus-anos-de-peregrinacao/
 Language: pt-br
 Section: books
 

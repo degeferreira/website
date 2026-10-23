@@ -30,5 +30,5 @@ User-agent: PerplexityBot
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://douglasferreira.me/sitemap.xml
-LLMs: https://douglasferreira.me/llms.txt
+Sitemap: https://degeferreira.me/sitemap.xml
+LLMs: https://degeferreira.me/llms.txt

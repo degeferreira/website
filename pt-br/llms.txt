@@ -2,7 +2,7 @@
 
 Psicanalista em formação, sociólogo e programador. Escrevo sobre como tecnologias digitais moldam a política, a cultura e o cotidiano.
 
-Canonical site: https://douglasferreira.me/
+Canonical site: https://degeferreira.me/
 Primary language: pt-br
 
 ## Languages
@@ -11,22 +11,22 @@ Primary language: pt-br
 
 
 ## Main sections
-- Microposts: https://douglasferreira.me/pt-br/microposts/ — Notas curtas e atualizações rápidas.
-- Na mídia: https://douglasferreira.me/pt-br/media/ — Entrevistas, menções e aparições públicas.
-- Escritos: https://douglasferreira.me/pt-br/blog/ — Textos longos e ensaios.
-- Fotografias: https://douglasferreira.me/pt-br/photos/ — Um caderno visual de fotos e legendas.
-- Leituras: https://douglasferreira.me/pt-br/books/ — Livros que estou lendo e já li.
+- Microposts: https://degeferreira.me/pt-br/microposts/ — Notas curtas e atualizações rápidas.
+- Na mídia: https://degeferreira.me/pt-br/media/ — Entrevistas, menções e aparições públicas.
+- Escritos: https://degeferreira.me/pt-br/blog/ — Textos longos e ensaios.
+- Fotografias: https://degeferreira.me/pt-br/photos/ — Um caderno visual de fotos e legendas.
+- Leituras: https://degeferreira.me/pt-br/books/ — Livros que estou lendo e já li.
 
 
-- Tools: https://douglasferreira.me/pt-br/tools/
+- Tools: https://degeferreira.me/pt-br/tools/
 ## Feeds and machine-readable resources
-- Sitemap: https://douglasferreira.me/sitemap.xml
-- RSS: https://douglasferreira.me/index.xml
-- JSON feed/search index: https://douglasferreira.me/index.json
-- Newsletter RSS: https://douglasferreira.me/newsletter/index.xml
-- Full LLM context: https://douglasferreira.me/llms-full.txt
+- Sitemap: https://degeferreira.me/sitemap.xml
+- RSS: https://degeferreira.me/index.xml
+- JSON feed/search index: https://degeferreira.me/index.json
+- Newsletter RSS: https://degeferreira.me/newsletter/index.xml
+- Full LLM context: https://degeferreira.me/llms-full.txt
 
 ## About
-- Home: https://douglasferreira.me/pt-br/
-- About: https://douglasferreira.me/pt-br/about/
-- Papers: https://douglasferreira.me/pt-br/papers/
+- Home: https://degeferreira.me/pt-br/
+- About: https://degeferreira.me/pt-br/about/
+- Papers: https://degeferreira.me/pt-br/papers/
