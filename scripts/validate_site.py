@@ -17,7 +17,7 @@ from site_content import clean_markdown, collect_content
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT_DIRS = [ROOT / "content" / "en", ROOT / "content" / "pt"]
-BASE_URL = "https://douglasferreira.me/"
+BASE_URL = "https://degeferreira.me/"
 
 
 @dataclass
@@ -256,13 +256,13 @@ def main() -> None:
             fail(f"required file was not generated: /{rel_path}")
 
     robots_text = (site_dir / "robots.txt").read_text(encoding="utf-8", errors="ignore")
-    for required in ["Sitemap: https://douglasferreira.me/sitemap.xml", "LLMs: https://douglasferreira.me/llms.txt", "Disallow: /admin/"]:
+    for required in ["Sitemap: https://degeferreira.me/sitemap.xml", "LLMs: https://degeferreira.me/llms.txt", "Disallow: /admin/"]:
         if required not in robots_text:
             fail(f"robots.txt is missing {required!r}")
 
     for rel_path in ["llms.txt", "llms-full.txt"]:
         text = (site_dir / rel_path).read_text(encoding="utf-8", errors="ignore")
-        if "https://douglasferreira.me/" not in text:
+        if "https://degeferreira.me/" not in text:
             fail(f"/{rel_path} does not include canonical site URLs")
 
     newsletter_feed = site_dir / "newsletter" / "index.xml"

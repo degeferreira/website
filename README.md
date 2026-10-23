@@ -1,6 +1,19 @@
 # Douglas Ferreira website
 
-Site pessoal em Hugo publicado pelo GitHub Pages em `https://douglasferreira.me/`.
+Site pessoal em Hugo publicado pelo GitHub Pages em `https://degeferreira.me/`.
+
+## Migração de domínio
+
+O domínio canônico é `degeferreira.me` e o repositório é `degeferreira/website`.
+Configure o mesmo domínio em Settings > Pages no GitHub e mantenha o DNS do
+novo domínio apontado para GitHub Pages. Os redirecionamentos do domínio antigo
+devem preservar caminhos e parâmetros, incluindo uma regra separada para o
+Orkut Archive em `orkutarchive.degeferreira.me`.
+
+Cadastre e verifique o novo domínio no Webmention.io, Bridgy Fed e Google Search
+Console. A migração não renomeia contas nas redes sociais nem altera tokens.
+O estado social preserva os caminhos dos arquivos e os IDs publicados; somente
+os permalinks internos são atualizados para evitar republicações duplicadas.
 
 ## Desenvolvimento local
 
@@ -59,19 +72,19 @@ Campos principais:
 O painel de edição fica em:
 
 ```text
-https://douglasferreira.me/admin/
+https://degeferreira.me/admin/
 ```
 
 O site usa Sveltia CMS via CDN, sem dependências npm. A configuração está em `static/admin/config.yml` e usa o backend GitHub:
 
-- repositório: `douglasferreira-me/website`;
+- repositório: `degeferreira/website`;
 - branch: `main`;
 - mídia enviada pelo CMS: `static/uploads`;
 - URL pública da mídia: `/uploads`.
 
 Para entrar:
 
-1. Abra `https://douglasferreira.me/admin/`.
+1. Abra `https://degeferreira.me/admin/`.
 2. Clique em “Sign In with Token”.
 3. Gere um Personal Access Token no GitHub com permissão de escrita para este repositório.
 4. Cole o token no navegador.
@@ -106,14 +119,14 @@ Uma etapa futura opcional é trocar o login por token por OAuth usando o Sveltia
 
 O site inclui marcação Microformats2 com `h-card`, `h-feed` e `h-entry`. O `<head>` publica endpoints do Webmention.io:
 
-- `https://webmention.io/douglasferreira.me/webmention`
-- `https://webmention.io/douglasferreira.me/xmlrpc`
+- `https://webmention.io/degeferreira.me/webmention`
+- `https://webmention.io/degeferreira.me/xmlrpc`
 
-Para ativar Webmentions, cadastre `douglasferreira.me` no Webmention.io usando um dos links `rel="me"` do site. A exibição no frontend consulta apenas dados públicos e não usa segredos.
+Para ativar Webmentions, cadastre `degeferreira.me` no Webmention.io usando um dos links `rel="me"` do site. A exibição no frontend consulta apenas dados públicos e não usa segredos.
 
 Para federar com Bridgy Fed:
 
-1. Cadastre `https://douglasferreira.me/` em `https://fed.brid.gy/`.
+1. Cadastre `https://degeferreira.me/` em `https://fed.brid.gy/`.
 2. Verifique a identidade usando os links `rel="me"`.
 3. Localize a conta do site no Mastodon/Fediverso após a ativação.
 4. Conecte ou represente o site no Bluesky seguindo a documentação do Bridgy Fed.
@@ -200,22 +213,22 @@ Se já existir um arquivo em inglês que não tenha `auto_translated = true`, o 
 
 Novas áreas públicas:
 
-- `https://douglasferreira.me/microposts/`
-- `https://douglasferreira.me/updates/`
-- `https://douglasferreira.me/books/`
-- `https://douglasferreira.me/photos/`
+- `https://degeferreira.me/microposts/`
+- `https://degeferreira.me/updates/`
+- `https://degeferreira.me/books/`
+- `https://degeferreira.me/photos/`
 
 Livros são cadastrados no CMS com título, autor, capa, status, datas, nota e texto livre. Fotografias são cadastradas com imagem, legenda, tags e opção de aparecer no feed geral.
 
 Posts de blog também podem aparecer na grade de fotos quando `show_image_in_photos = true` e `image` estiver preenchido. O feed `/updates/` reúne blogposts, microposts, fotos e livros em ordem cronológica.
 ## Ferramentas / Tools
 
-As páginas `https://douglasferreira.me/tools/` e `https://douglasferreira.me/pt-br/tools/` são catálogos separados do feed de Atualizações. No Sveltia CMS, crie uma ferramenta com nome, URL direta, imagem quadrada, descrição e status de rascunho. Após publicar, o cartão abre a ferramenta em nova aba.
+As páginas `https://degeferreira.me/tools/` e `https://degeferreira.me/pt-br/tools/` são catálogos separados do feed de Atualizações. No Sveltia CMS, crie uma ferramenta com nome, URL direta, imagem quadrada, descrição e status de rascunho. Após publicar, o cartão abre a ferramenta em nova aba.
 
 O ícone RSS ao lado dos links sociais aponta para o feed do idioma atual:
 
-- `https://douglasferreira.me/index.xml`
-- `https://douglasferreira.me/pt-br/index.xml`
+- `https://degeferreira.me/index.xml`
+- `https://degeferreira.me/pt-br/index.xml`
 
 
 ## Newsletter e MailerLite
@@ -223,13 +236,13 @@ O ícone RSS ao lado dos links sociais aponta para o feed do idioma atual:
 A página pública da newsletter fica em:
 
 ```text
-https://douglasferreira.me/newsletter/
+https://degeferreira.me/newsletter/
 ```
 
 O RSS exclusivo para campanha mensal fica em:
 
 ```text
-https://douglasferreira.me/newsletter/index.xml
+https://degeferreira.me/newsletter/index.xml
 ```
 
 Somente posts publicados com a tag exata `newsletter` entram nesse feed. Rascunhos não entram.
@@ -237,7 +250,7 @@ Somente posts publicados com a tag exata `newsletter` entram nesse feed. Rascunh
 Configuração sugerida no MailerLite:
 
 1. Crie uma campanha do tipo RSS.
-2. Use `https://douglasferreira.me/newsletter/index.xml`.
+2. Use `https://degeferreira.me/newsletter/index.xml`.
 3. Escolha frequência mensal.
 4. Configure envio apenas quando houver novos itens.
 5. Defina remetente, assunto e grupo de assinantes.

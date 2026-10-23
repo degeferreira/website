@@ -77,10 +77,10 @@
   {{- $graph = $graph | append $article -}}
 {{- end -}}
 <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>
-<link rel="webmention" href="https://webmention.io/douglasferreira.me/webmention" />
+<link rel="webmention" href="https://webmention.io/degeferreira.me/webmention" />
 {{ $languagePreference := resources.Get "js/language-preference.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $languagePreference.RelPermalink }}" integrity="{{ $languagePreference.Data.Integrity }}"></script>
-<link rel="pingback" href="https://webmention.io/douglasferreira.me/xmlrpc" />
+<link rel="pingback" href="https://webmention.io/degeferreira.me/xmlrpc" />
 {{ if and .IsPage (in .Site.Params.mainSections .Section) }}
   {{ $webmentions := resources.Get "js/webmentions.js" | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha256") }}
   <script defer src="{{ $webmentions.Permalink }}" integrity="{{ $webmentions.Data.Integrity }}"></script>

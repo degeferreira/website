@@ -2,7 +2,7 @@
 
 backend:
   name: github
-  repo: douglasferreira-me/website
+  repo: degeferreira/website
   branch: main
 
 media_folder: static/uploads

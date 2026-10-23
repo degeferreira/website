@@ -36,7 +36,7 @@ def fetch_preview_image(url: str) -> str:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Mozilla/5.0 (compatible; DouglasFerreiraSitePreview/1.0; +https://douglasferreira.me/)",
+            "User-Agent": "Mozilla/5.0 (compatible; DouglasFerreiraSitePreview/1.0; +https://degeferreira.me/)",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         },
     )

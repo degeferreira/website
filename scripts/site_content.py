@@ -12,7 +12,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_URL = "https://douglasferreira.me/"
+BASE_URL = "https://degeferreira.me/"
 CONTENT_ROOTS = {
     "en": ROOT / "content" / "en",
     "pt-BR": ROOT / "content" / "pt",
