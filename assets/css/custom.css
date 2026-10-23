@@ -54,9 +54,9 @@ html {
 .newsletter-test-banner {
   position: relative;
   padding: 0.65rem 2.5rem 0.65rem 0.5rem;
-  background: #ad571f;
-  color: #fffffd;
-  box-shadow: 0 0 0 100vmax #ad571f;
+  background: var(--site-accent);
+  color: var(--site-banner-text);
+  box-shadow: 0 0 0 100vmax var(--site-accent);
   clip-path: inset(0 -100vmax);
   font-family: "Inconsolata", monospace;
   font-stretch: 90%;
@@ -108,8 +108,10 @@ html {
   --color-neutral-900: 41, 50, 56;
   --site-text: #293238;
   --site-muted: #62645f;
-  --site-icon: #716a60;
-  --site-accent: #ad571f;
+  --site-icon: #536275;
+  --site-link: #536275;
+  --site-accent: #7b4966;
+  --site-banner-text: #fffffd;
 }
 
 html.dark {
@@ -120,8 +122,10 @@ html.dark {
   --color-neutral-500: 179, 173, 162;
   --site-text: #e7e3da;
   --site-muted: #b3ada2;
-  --site-icon: #a49c8e;
-  --site-accent: #efa568;
+  --site-icon: #adbed0;
+  --site-link: #adbed0;
+  --site-accent: #cfacc3;
+  --site-banner-text: #232c32;
 }
 
 body,
@@ -133,11 +137,15 @@ body > header {
   --tw-prose-body: var(--site-text);
   --tw-prose-headings: var(--site-text);
   --tw-prose-bold: var(--site-text);
-  --tw-prose-links: var(--site-accent);
+  --tw-prose-links: var(--site-link);
   --tw-prose-invert-body: var(--site-text);
   --tw-prose-invert-headings: var(--site-text);
   --tw-prose-invert-bold: var(--site-text);
-  --tw-prose-invert-links: var(--site-accent);
+  --tw-prose-invert-links: var(--site-link);
+}
+
+.prose a {
+  text-decoration-line: underline;
 }
 
 .home-profile__headline,
